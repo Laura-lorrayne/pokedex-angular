@@ -1,0 +1,31 @@
+form{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.938rem 1.25rem ;
+    background: rgba( 225, 225, 225, 0.2);
+    border-radius: 0.625rem;
+}
+    
+
+input{
+    width: 95%;
+    background-color: none;
+    border: none;
+    font-size: 1.125;
+    color: var(--branco);
+    background: none;
+    
+}
+::placeholder {
+    color: var(--branco);
+  }
+
+  @media  screen and (max-width: 420px) {
+
+ form{   
+    
+    max-width: 42.5vh;
+ 
+}  
+  } 

@@ -1,0 +1,13 @@
+@import "./config-css/reset.css";
+@import "./config-css/variavel.css";
+
+html{
+    font-family: 'Roboto', sans-serif;
+    background: var(--primary-color);
+    
+}
+main{
+    width: 37.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
